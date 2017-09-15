@@ -1,8 +1,9 @@
 # 简介
 
-原生Android项目接入RN的一个Hello World Demo
+原生Android项目接入react-native实现Hello World
 
-# Demo创建过程
+
+# 创建
 
 * 新建一个ReactAndroidApp项目文件夹
 
@@ -11,6 +12,7 @@
 * 在项目根目录下创建package.json文件，文件内容见demo
 
 * 然后在根目录下执行npm install，执行完毕之后会在项目根目录生成一个/node_modules目录，里面都是一些项目编译需要的js依赖文件 
+
 
 # 运行
 
@@ -45,6 +47,7 @@
 	* 运行: ```react-native run-android``` 或者 ```./gradlew 	installRelease```
 
     > **如果你后面自己修改了index.android.js文件，那么通过release执行方式就要重新执行打包生成index.android.bundle，这样你的修改才会生效**
+
 
 
 # 遇到的问题
